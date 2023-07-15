@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex</title>
+    <style>
+        .container{
+            display: flex;
+        }
+        .box{
+            background-color: antiquewhite;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 10px;
+        }
+
+        @media screen and (max-width: 576px) {
+            .container{
+                flex-direction: column;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Learning Flex</h1>
+    <div class="container">
+        <div class="box">
+            <h2>Box - 1</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem amet assumenda labore perferendis accusamus necessitatibus, culpa tempore consequatur qui laboriosam repellat delectus, ullam obcaecati, hic debitis quae eveniet! Tempora, qui?</p>
+        </div>
+        <div class="box">
+            <h2>Box - 2</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae odit exercitationem, dolores soluta, eaque error est modi veritatis quidem repellat fuga ipsam harum fugit. Doloremque cumque inventore dicta itaque quibusdam! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur sed id fugiat quaerat! Quam doloremque repellendus dignissimos qui odit nemo reprehenderit, vero aspernatur minus sequi quaerat itaque laboriosam hic? Excepturi! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum dolorum sunt sit, atque accusantium consequatur deserunt asperiores nihil corrupti. Cupiditate voluptates autem reprehenderit accusantium recusandae molestias velit assumenda pariatur perspiciatis!</p>
+        </div>
+    </div>
+</body>
+</html>
