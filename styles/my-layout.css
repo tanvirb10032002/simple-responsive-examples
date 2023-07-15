@@ -59,7 +59,7 @@ body{
 @media screen and (min-width: 576px) and (max-width: 768px) {
     body{
         display: grid;
-        grid-template-areas: 
+        grid-template-areas:
         "header         header"
         "nav            nav"
         "main           main"
